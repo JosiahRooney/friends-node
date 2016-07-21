@@ -1,0 +1,11 @@
+<div class="form" ng-controller="editController">
+    <h1>Edit Friend</h1>
+    <form action="" method="POST">
+        <p><input type="text" name="first_name" placeholder="First Name" ng-model="friend.first_name"></p>
+        <p><input type="text" name="last_name" placeholder="Last Name" ng-model="friend.last_name"></p>
+        <p><input type="number" name="age" placeholder="Age" ng-model="friend.age"></p>
+        <p><button type="button" ng-click="updateFriend()">Update Friend</button></p>
+        <p><a href="#/"><button type="button">Cancel</button></a></p>
+        <p><button type="button" ng-click="deleteFriend()">Delete</button></p>
+    </form>
+</div>

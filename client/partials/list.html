@@ -1,0 +1,9 @@
+<div class="friends" ng-controller="friendsController">
+    <h1>Friends</h1>
+    <div class="nav">
+        <a href="#/friend/new">Add Friend</a>
+    </div>
+    <div class="friend" ng-repeat="friend in friends">
+        <p>Name: <a href="#/friend/{{friend._id}}/edit">{{friend.first_name}} {{friend.last_name}}</a><br> Age: {{friend.age}}</p>
+    </div>
+</div>
