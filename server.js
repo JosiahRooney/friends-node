@@ -1,5 +1,5 @@
 var express     = require( 'express' ),
-    mongoose = require('mongoose'),
+    mongoose 	= require('mongoose'),
     path        = require( 'path' ),
     bodyParser  = require('body-parser'),
     root        = __dirname,
